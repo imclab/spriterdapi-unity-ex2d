@@ -1,0 +1,639 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1155214310, guid: 86da5fbf2fdd742fabee71203cfbdca4, type: 1}
+  m_Name: first character Atlas
+  elements:
+  - name: abs_0
+    originalWidth: 51
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 13
+      width: 27
+      height: 22
+    coords:
+      serializedVersion: 2
+      x: .190429688
+      y: .918945312
+      width: .0263671875
+      height: .021484375
+    rotated: 0
+  - name: abs_1
+    originalWidth: 36
+    originalHeight: 30
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 7
+      width: 24
+      height: 15
+    coords:
+      serializedVersion: 2
+      x: .3515625
+      y: .92578125
+      width: .0234375
+      height: .0146484375
+    rotated: 0
+  - name: arm_0
+    originalWidth: 36
+    originalHeight: 38
+    trimRect:
+      serializedVersion: 2
+      x: 10
+      y: 10
+      width: 17
+      height: 20
+    coords:
+      serializedVersion: 2
+      x: .278320312
+      y: .920898438
+      width: .0166015625
+      height: .01953125
+    rotated: 0
+  - name: arm_b
+    originalWidth: 26
+    originalHeight: 26
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 4
+      width: 16
+      height: 19
+    coords:
+      serializedVersion: 2
+      x: .296875
+      y: .921875
+      width: .015625
+      height: .0185546875
+    rotated: 0
+  - name: chest_0
+    originalWidth: 67
+    originalHeight: 67
+    trimRect:
+      serializedVersion: 2
+      x: 13
+      y: 11
+      width: 41
+      height: 43
+    coords:
+      serializedVersion: 2
+      x: .639648438
+      y: .956054688
+      width: .0400390625
+      height: .0419921875
+    rotated: 0
+  - name: chest_1
+    originalWidth: 60
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 12
+      width: 40
+      height: 38
+    coords:
+      serializedVersion: 2
+      x: .79296875
+      y: .9609375
+      width: .0390625
+      height: .037109375
+    rotated: 0
+  - name: foot_0
+    originalWidth: 43
+    originalHeight: 33
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 5
+      width: 33
+      height: 23
+    coords:
+      serializedVersion: 2
+      x: .131835938
+      y: .91796875
+      width: .0322265625
+      height: .0224609375
+    rotated: 0
+  - name: foot_2
+    originalWidth: 48
+    originalHeight: 35
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 10
+      width: 36
+      height: 19
+    coords:
+      serializedVersion: 2
+      x: .314453125
+      y: .921875
+      width: .03515625
+      height: .0185546875
+    rotated: 0
+  - name: foot_2_bent
+    originalWidth: 48
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 15
+      width: 37
+      height: 25
+    coords:
+      serializedVersion: 2
+      x: .05078125
+      y: .916015625
+      width: .0361328125
+      height: .0244140625
+    rotated: 0
+  - name: foot_a
+    originalWidth: 54
+    originalHeight: 36
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 2
+      width: 41
+      height: 27
+    coords:
+      serializedVersion: 2
+      x: .125976562
+      y: .88671875
+      width: .0400390625
+      height: .0263671875
+    rotated: 0
+  - name: foot_a_bent
+    originalWidth: 54
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 11
+      width: 42
+      height: 24
+    coords:
+      serializedVersion: 2
+      x: .0888671875
+      y: .916992188
+      width: .041015625
+      height: .0234375
+    rotated: 0
+  - name: forearm_0
+    originalWidth: 44
+    originalHeight: 61
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 16
+      width: 24
+      height: 38
+    coords:
+      serializedVersion: 2
+      x: .833984375
+      y: .9609375
+      width: .0234375
+      height: .037109375
+    rotated: 0
+  - name: forearm_a
+    originalWidth: 39
+    originalHeight: 52
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 11
+      width: 32
+      height: 35
+    coords:
+      serializedVersion: 2
+      x: .001953125
+      y: .87890625
+      width: .03125
+      height: .0341796875
+    rotated: 0
+  - name: forearm_b
+    originalWidth: 45
+    originalHeight: 40
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 10
+      width: 28
+      height: 28
+    coords:
+      serializedVersion: 2
+      x: .0966796875
+      y: .885742188
+      width: .02734375
+      height: .02734375
+    rotated: 0
+  - name: forearm_nohand
+    originalWidth: 32
+    originalHeight: 45
+    trimRect:
+      serializedVersion: 2
+      x: 3
+      y: 18
+      width: 24
+      height: 27
+    coords:
+      serializedVersion: 2
+      x: .16796875
+      y: .88671875
+      width: .0234375
+      height: .0263671875
+    rotated: 0
+  - name: hair_walk_0
+    originalWidth: 96
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 22
+      y: 36
+      width: 58
+      height: 51
+    coords:
+      serializedVersion: 2
+      x: .176757812
+      y: .948242188
+      width: .056640625
+      height: .0498046875
+    rotated: 0
+  - name: hair_walk_1
+    originalWidth: 96
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 22
+      y: 39
+      width: 58
+      height: 48
+    coords:
+      serializedVersion: 2
+      x: .581054688
+      y: .951171875
+      width: .056640625
+      height: .046875
+    rotated: 0
+  - name: hair_walk_2
+    originalWidth: 96
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 22
+      y: 39
+      width: 58
+      height: 48
+    coords:
+      serializedVersion: 2
+      x: .458984375
+      y: .951171875
+      width: .056640625
+      height: .046875
+    rotated: 0
+  - name: hand_a
+    originalWidth: 30
+    originalHeight: 36
+    trimRect:
+      serializedVersion: 2
+      x: 2
+      y: 7
+      width: 23
+      height: 23
+    coords:
+      serializedVersion: 2
+      x: .166015625
+      y: .91796875
+      width: .0224609375
+      height: .0224609375
+    rotated: 0
+  - name: head_0
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 17
+      y: 40
+      width: 51
+      height: 50
+    coords:
+      serializedVersion: 2
+      x: .235351562
+      y: .94921875
+      width: .0498046875
+      height: .048828125
+    rotated: 0
+  - name: head_1
+    originalWidth: 96
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 31
+      y: 45
+      width: 46
+      height: 49
+    coords:
+      serializedVersion: 2
+      x: .287109375
+      y: .950195312
+      width: .044921875
+      height: .0478515625
+    rotated: 0
+  - name: idle_blink_0
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 36
+      width: 54
+      height: 38
+    coords:
+      serializedVersion: 2
+      x: .73828125
+      y: .9609375
+      width: .052734375
+      height: .037109375
+    rotated: 0
+  - name: idle_blink_1
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 36
+      y: 64
+      width: 22
+      height: 11
+    coords:
+      serializedVersion: 2
+      x: .376953125
+      y: .9296875
+      width: .021484375
+      height: .0107421875
+    rotated: 0
+  - name: idle_hair_0
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 30
+      width: 61
+      height: 48
+    coords:
+      serializedVersion: 2
+      x: .397460938
+      y: .951171875
+      width: .0595703125
+      height: .046875
+    rotated: 0
+  - name: idle_hair_1
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 30
+      width: 63
+      height: 49
+    coords:
+      serializedVersion: 2
+      x: .333984375
+      y: .950195312
+      width: .0615234375
+      height: .0478515625
+    rotated: 0
+  - name: idle_hair_2
+    originalWidth: 77
+    originalHeight: 99
+    trimRect:
+      serializedVersion: 2
+      x: 5
+      y: 30
+      width: 63
+      height: 48
+    coords:
+      serializedVersion: 2
+      x: .517578125
+      y: .951171875
+      width: .0615234375
+      height: .046875
+    rotated: 0
+  - name: knee_0
+    originalWidth: 57
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 14
+      y: 13
+      width: 30
+      height: 38
+    coords:
+      serializedVersion: 2
+      x: .859375
+      y: .9609375
+      width: .029296875
+      height: .037109375
+    rotated: 0
+  - name: knee_1
+    originalWidth: 44
+    originalHeight: 60
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 15
+      width: 31
+      height: 42
+    coords:
+      serializedVersion: 2
+      x: .681640625
+      y: .95703125
+      width: .0302734375
+      height: .041015625
+    rotated: 0
+  - name: knee_a
+    originalWidth: 43
+    originalHeight: 55
+    trimRect:
+      serializedVersion: 2
+      x: 7
+      y: 15
+      width: 27
+      height: 33
+    coords:
+      serializedVersion: 2
+      x: .03515625
+      y: .880859375
+      width: .0263671875
+      height: .0322265625
+    rotated: 0
+  - name: leg_0
+    originalWidth: 37
+    originalHeight: 59
+    trimRect:
+      serializedVersion: 2
+      x: 6
+      y: 11
+      width: 28
+      height: 36
+    coords:
+      serializedVersion: 2
+      x: .915039062
+      y: .962890625
+      width: .02734375
+      height: .03515625
+    rotated: 0
+  - name: leg_1
+    originalWidth: 40
+    originalHeight: 38
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 32
+      height: 29
+    coords:
+      serializedVersion: 2
+      x: .0634765625
+      y: .884765625
+      width: .03125
+      height: .0283203125
+    rotated: 0
+  - name: leg_a
+    originalWidth: 42
+    originalHeight: 50
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 9
+      width: 23
+      height: 41
+    coords:
+      serializedVersion: 2
+      x: .713867188
+      y: .958007812
+      width: .0224609375
+      height: .0400390625
+    rotated: 0
+  - name: leg_b
+    originalWidth: 38
+    originalHeight: 48
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 7
+      width: 23
+      height: 37
+    coords:
+      serializedVersion: 2
+      x: .890625
+      y: .961914062
+      width: .0224609375
+      height: .0361328125
+    rotated: 0
+  - name: pelvis_0
+    originalWidth: 52
+    originalHeight: 39
+    trimRect:
+      serializedVersion: 2
+      x: 11
+      y: 9
+      width: 32
+      height: 21
+    coords:
+      serializedVersion: 2
+      x: .245117188
+      y: .919921875
+      width: .03125
+      height: .0205078125
+    rotated: 0
+  - name: pelvis_1
+    originalWidth: 40
+    originalHeight: 34
+    trimRect:
+      serializedVersion: 2
+      x: 8
+      y: 6
+      width: 25
+      height: 21
+    coords:
+      serializedVersion: 2
+      x: .21875
+      y: .919921875
+      width: .0244140625
+      height: .0205078125
+    rotated: 0
+  - name: shield_b
+    originalWidth: 72
+    originalHeight: 108
+    trimRect:
+      serializedVersion: 2
+      x: 12
+      y: 13
+      width: 48
+      height: 85
+    coords:
+      serializedVersion: 2
+      x: .001953125
+      y: .915039062
+      width: .046875
+      height: .0830078125
+    rotated: 0
+  - name: shoulder_0
+    originalWidth: 52
+    originalHeight: 53
+    trimRect:
+      serializedVersion: 2
+      x: 9
+      y: 10
+      width: 29
+      height: 36
+    coords:
+      serializedVersion: 2
+      x: .944335938
+      y: .962890625
+      width: .0283203125
+      height: .03515625
+    rotated: 0
+  - name: shoulder_a
+    originalWidth: 40
+    originalHeight: 40
+    trimRect:
+      serializedVersion: 2
+      x: 4
+      y: 8
+      width: 22
+      height: 32
+    coords:
+      serializedVersion: 2
+      x: .974609375
+      y: .966796875
+      width: .021484375
+      height: .03125
+    rotated: 0
+  - name: sword_0
+    originalWidth: 187
+    originalHeight: 88
+    trimRect:
+      serializedVersion: 2
+      x: 31
+      y: 14
+      width: 127
+      height: 57
+    coords:
+      serializedVersion: 2
+      x: .05078125
+      y: .942382812
+      width: .124023438
+      height: .0556640625
+    rotated: 0
+  material: {fileID: 2100000, guid: 2b9ca0a06a94b43d0945b3a3ae00133e, type: 2}
+  texture: {fileID: 2800000, guid: 14f4526c191fc40d1b65e661ad7e90aa, type: 1}

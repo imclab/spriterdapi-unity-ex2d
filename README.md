@@ -1,4 +1,4 @@
-# Spriter Data API - ex2D (Coming soon)
+# Spriter Data API - ex2D 
 
 ### Overview
 
