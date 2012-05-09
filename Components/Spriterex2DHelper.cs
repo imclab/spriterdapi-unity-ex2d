@@ -23,7 +23,7 @@
 // WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
 // SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
-// ex2D is (c) by ex-Dev. Spriter is (c) by BrashMonkey.
+// ex2D is (c) by exDev. Spriter is (c) by BrashMonkey.
 //
 using UnityEngine;
 using System.Collections;
