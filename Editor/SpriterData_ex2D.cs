@@ -229,7 +229,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 				BindAnimation(clip, curves);
 				
 				// Save the animation
-				string p = NGUIEditorTools.GetSelectionFolder() + characterRoot.name + "@" + clip.name + ".anim";
+				string p = GetSelectionFolder() + characterRoot.name + "@" + clip.name + ".anim";
 				if (AssetDatabase.LoadAssetAtPath(p, typeof(AnimationClip)))
 				{
 					AssetDatabase.DeleteAsset(p);
@@ -674,14 +674,14 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			{
 				if (kvp.Value.length > 1)
 				{
-					clip.SetCurve(kvp.Key, typeof(SpriterNGUIColorHelper), "color.g", kvp.Value);
+					clip.SetCurve(kvp.Key, typeof(Spriterex2DHelper), "color.g", kvp.Value);
 				}
 			}
 			foreach(var kvp in curves[13])
 			{
 				if (kvp.Value.length > 1)
 				{
-					clip.SetCurve(kvp.Key, typeof(SpriterNGUIColorHelper), "color.b", kvp.Value);
+					clip.SetCurve(kvp.Key, typeof(Spriterex2DHelper), "color.b", kvp.Value);
 				}
 			}
 		}
