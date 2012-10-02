@@ -61,6 +61,8 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;
 
+/*
+
 namespace BrashMonkey.Spriter.DataPlugins.ex2D
 {
 	public class SpriterData_ex2D : ISpriterData
@@ -93,8 +95,8 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 		#endregion
 		
 		#region Private fields
-		private ISpriterCharacter mCharacter;
-		private List<ISpriterFrame> mFrames;
+		private ISpriterEntity mCharacter;
+		private List<ISpriterFile> mFrames;
 		private string mPath;
 		private Object[] mCachedSelectionObjects;
 		const int kLeftTangentMask = 1 << 1 | 1 << 2;
@@ -178,7 +180,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			{
 				foreach(ISpriterKeyframe kf in a.keyframes)
 				{
-					ISpriterFrame f = FindFrame(kf.name);
+					ISpriterFile f = FindFrame(kf.name);
 					
 					foreach(ISpriterSprite s in f.sprites)
 					{
@@ -191,7 +193,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			}
 			
 			// Tracks the very last processed keyframe for display purposes
-			ISpriterFrame endFrame = mFrames.Count > 0 ? mFrames[mFrames.Count - 1] : null;
+			ISpriterFile endFrame = mFrames.Count > 0 ? mFrames[mFrames.Count - 1] : null;
 			
 			// Go through each animation
 			int ind = 0;
@@ -213,7 +215,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 				
 				// The current time in the animation
 				float currentTime = 0;
-				ISpriterFrame lastFrame = null;
+				ISpriterFile lastFrame = null;
 				ISpriterKeyframe lastKeyframe = null;
 				
 				int l = anim.keyframes.Count;
@@ -255,9 +257,9 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 							
 			SaveAssets(characterRoot.gameObject);
 		}	
-		float RecordFrame(Transform characterRoot, ISpriterKeyframe keyframe, ref ISpriterFrame lastFrame, ref ISpriterKeyframe lastKeyframe, ISpriterFrame endFrame, float currentTime, float frameRate, Dictionary<string, AnimationCurve>[] curves)
+		float RecordFrame(Transform characterRoot, ISpriterKeyframe keyframe, ref ISpriterFile lastFrame, ref ISpriterKeyframe lastKeyframe, ISpriterFile endFrame, float currentTime, float frameRate, Dictionary<string, AnimationCurve>[] curves)
 		{
-			ISpriterFrame frame = FindFrame(keyframe.name);
+			ISpriterFile frame = FindFrame(keyframe.name);
 					
 			if (frame == null)
 			{
@@ -752,7 +754,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			return result;
 			
 		}
-		ISpriterFrame FindFrame(string name)
+		ISpriterFile FindFrame(string name)
 		{
 			foreach(var frame in mFrames)
 			{
@@ -801,7 +803,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			CreateCharacterPrefab();
 		}
 		
-		public ISpriterCharacter character
+		public ISpriterEntity character
 		{
 			get
 			{
@@ -813,7 +815,7 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 			}
 		}
 
-		public List<ISpriterFrame> frames
+		public List<ISpriterFile> frames
 		{
 			get
 			{
@@ -828,3 +830,5 @@ namespace BrashMonkey.Spriter.DataPlugins.ex2D
 	
 	}
 }
+
+*/
